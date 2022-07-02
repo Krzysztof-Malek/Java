@@ -1,0 +1,21 @@
+{
+    "Servers": {
+        "1": {
+            "Name": "PhotoGallery",
+            "Group": "Servers",
+            "Host": "localhost",
+            "Port": 5432,
+            "MaintenanceDB": "postgres",
+            "Username": "postgres",
+            "SSLMode": "prefer",
+            "Comment": "This is our server for photo gallery desktop application",
+            "SSLCompression": 0,
+            "BGColor": "#FF9900",
+            "FGColor": "#240C87",
+            "Timeout": 10,
+            "UseSSHTunnel": 0,
+            "TunnelPort": "22",
+            "TunnelAuthentication": 0
+        }
+    }
+}

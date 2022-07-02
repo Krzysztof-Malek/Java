@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="180.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
+   <children>
+      <Label layoutX="34.0" layoutY="31.0" text="Czy jesteś pewien aby usunąć zaznaczone zdjęcia?" />
+      <Button fx:id="yes" layoutX="186.0" layoutY="90.0" mnemonicParsing="false" onAction="#yesSure" text="Tak" />
+      <Button fx:id="no" layoutX="87.0" layoutY="90.0" mnemonicParsing="false" onAction="#noSure" text="Nie" />
+   </children>
+</Pane>

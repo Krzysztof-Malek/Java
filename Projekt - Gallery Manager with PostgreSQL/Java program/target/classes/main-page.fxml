@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="1080.0" maxWidth="1920.0" minHeight="720.0" minWidth="1080.0" prefHeight="720.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
+   <TilePane alignment="CENTER" layoutX="11.0" layoutY="6.0" pickOnBounds="false" style="-fx-border-color: black;" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="6.0">
+      <padding>
+         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+      </padding>
+      <HBox fx:id="hb1" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="img_1" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </HBox>
+      <HBox fx:id="hb2" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="img_2" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </HBox>
+      <HBox fx:id="hb3" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="img_3" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </HBox>
+      <HBox fx:id="hb4" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="img_4" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </HBox>
+      <HBox fx:id="hb5" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="img_5" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </HBox>
+      <HBox fx:id="hb6" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="img_6" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </HBox>
+      <HBox fx:id="hb7" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="img_7" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </HBox>
+      <HBox fx:id="hb8" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="img_8" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </HBox>
+      <HBox fx:id="hb9" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="img_9" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </HBox>
+      <HBox fx:id="hb10" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="img_10" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </HBox>
+      <HBox fx:id="hb11" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="img_11" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </HBox>
+      <HBox fx:id="hb12" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="img_12" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </HBox>
+      <HBox fx:id="hb13" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="img_13" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </HBox>
+      <HBox fx:id="hb14" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="img_14" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </HBox>
+      <HBox fx:id="hb15" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="img_15" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </HBox>
+   </TilePane>
+   <Button fx:id="addPhotos" layoutX="11.0" layoutY="558.0" mnemonicParsing="false" onAction="#switchToPhotoAdd" text="Dodaj zdjęcia" />
+   <Button fx:id="prevPageButton" layoutX="445.0" layoutY="485.0" mnemonicParsing="false" onAction="#switchToPrevPage" text="Poprzednia" />
+   <Button fx:id="nextPageButton" layoutX="540.0" layoutY="486.0" mnemonicParsing="false" onAction="#switchToNextPage" prefHeight="31.0" prefWidth="95.0" text="Następna" />
+   <Button fx:id="deleteImgButton" layoutX="11.0" layoutY="517.0" mnemonicParsing="false" onAction="#switchToSure" text="Usuń oznaczone zdjęcia" />
+   <Button fx:id="addAttributesButton" layoutX="11.0" layoutY="600.0" mnemonicParsing="false" onAction="#switchToAttributesAdd" text="Zmień atrybuty" />
+   <Button layoutX="932.0" layoutY="665.0" mnemonicParsing="false" onAction="#generateReport" text="Wygeneruj raport" />
+   <Button layoutX="869.0" layoutY="665.0" mnemonicParsing="false" onAction="#launchHelp" text="Pomoc" />
+   <TextField fx:id="nameSearchField" layoutX="896.0" layoutY="485.0" onKeyTyped="#searchImgByName" prefHeight="25.0" prefWidth="167.0" promptText="Wyszukaj zdjęcia po nazwie" />
+   <Button layoutX="934.0" layoutY="517.0" mnemonicParsing="false" onAction="#setSearchFilters" text="Ustaw Filtry wyszukiwania">
+      <font>
+         <Font size="10.0" />
+      </font>
+   </Button>
+   <Button layoutX="994.0" layoutY="543.0" mnemonicParsing="false" onAction="#resetFilters" text="Resetuj filtry">
+      <font>
+         <Font size="10.0" />
+      </font>
+   </Button>
+   <Button layoutX="1011.0" layoutY="571.0" mnemonicParsing="false" onAction="#unmarkEverything" text="Odznacz">
+      <font>
+         <Font size="10.0" />
+      </font>
+   </Button>
+   <Button layoutX="954.0" layoutY="571.0" mnemonicParsing="false" onAction="#markEverything" text="Zaznacz">
+      <font>
+         <Font size="10.0" />
+      </font>
+   </Button>
+</AnchorPane>

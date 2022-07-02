@@ -1,0 +1,57 @@
+body
+{
+    background-image: url("beanstalk-dark.png");
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 48px;
+}
+
+h5
+{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+h3
+{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+h2
+{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+img
+{
+    transition: all 0.3s ease-in-out;
+}
+
+img:hover
+{
+    transform: scale(1.08);
+    cursor: default;
+}
+
+a
+{
+
+}
+
+a:visited
+{
+    color: white;
+}
+
+a:hover
+{
+    color: gold;
+}
+
